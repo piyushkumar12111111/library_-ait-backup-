@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413086515643",
+    "project_id": "libraryait-c92ab",
+    "storage_bucket": "libraryait-c92ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413086515643:android:0ca14c7e096c799818849e",
+        "android_client_info": {
+          "package_name": "com.example.library_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413086515643-ddc1s8bjg8mkrg01hp2j2cloq1kb3k6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ7jfyAiPKi1Rvg8EeeIbhsmhXXJqu6UE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413086515643-ddc1s8bjg8mkrg01hp2j2cloq1kb3k6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
