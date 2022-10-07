@@ -49,9 +49,10 @@ Currently the app is under development phase so some feature may not work. Moreo
   - Tools used
   - [VS Code and Android Studio]()
 
-## 🤝 Contribute
-
-To contribute, fork the repository and push the changes to the **master** branch. Then submit a pull request for merging with the source. If your code passes the review and checks it will be merged into the master branch.
+## 🤝 Why contribute?
+- If you find any bugs then please report them by creating an issue.
+- If you can make a website look good by modifying then go ahead and describe it in issue and create pulll requst.
+- If you can add more functionality, then create an issue and contribute by making pull request.
 
 ## 💬 Feedback
 
