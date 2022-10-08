@@ -5,7 +5,7 @@
 E-Library is an app made with **Flutter** framework and **Firebase** backend.The feature of using flutter app is that it work on android as well as ios devices.
 <br>
 
-It provides book borrowing and library information services to members. It is also used to assist the librarian in maintaining the book catalogue and in book-keeping of fines.One of the main feature on which we are working is user will get a notifictio if the issue period is about to expire.
+It provides book borrowing and library information services to members. It is also used to assist the librarian in maintaining the book catalogue and in book-keeping of fines.One of the main feature on which we are working is user will get a notification if the issue period is about to expire.
 <br>
 
 The backend and frontend code is attached and structured in their respective folders. Further instructions are also found inside those folders.
@@ -50,8 +50,8 @@ Currently the app is under development phase so some feature may not work. Moreo
   - [VS Code and Android Studio]()
 
 ## 🤝 Why contribute?
-- If you find any bugs then please report them by creating an issue.
-- If you can make a website look good by modifying then go ahead and describe it in issue and create pulll requst.
+- Please create an issue to report bugs if you find any.
+- If you can make a website look good by modifying then go ahead and describe it in issue and create pull requst.
 - If you can add more functionality, then create an issue and contribute by making pull request.
 
 ## 💬 Feedback
