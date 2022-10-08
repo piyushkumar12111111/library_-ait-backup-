@@ -1,0 +1,100 @@
+body {
+    /* background-image: url('/web 2/img/wallpaperflare.com_wallpaper.jpg'); */
+    background-color: black;
+}
+
+.container0 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.container0:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.left {
+    background: url('img/background1.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.left img {
+    height: 500px;
+    width: 500px;
+}
+
+.contact-box1 {
+    width: 900px;
+    justify-content: center;
+    display: grid;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.field {
+    width: 80%;
+    border: 2px solid #E6E6E6;
+    outline: none;
+    background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.5em 1rem;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+h2:after {
+
+    position: absolute;
+    align-items: center;
+    left: 42.5%;
+    bottom: 0;
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #5C7AEA;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: #3D56B2;
+    color: white;
+    border: blue;
+    font-size: 1.5em;
+
+}
+
+.btn:hover {
+    background-color: #5C7AEA;
+    cursor: pointer;
+}
+
+.field:hover {
+    background-color: #E6E6E6;
+}
+
+.right {
+    padding: 15px;
+}
