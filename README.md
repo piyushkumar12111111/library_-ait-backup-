@@ -1,4 +1,4 @@
-# HACKTOBERFEST 2022
+# HACKTOBERFEST 2022-Biggest Open Source Event
 
 # AIT E-Library - A library management app
 
@@ -48,6 +48,7 @@ Currently the app is under development phase so some feature may not work. Moreo
   - [Firebase]()
   - Tools used
   - [VS Code and Android Studio]()
+  - [Firebase Added]
 
 ## 🤝 Why contribute?
 - Please create an issue to report bugs if you find any.
