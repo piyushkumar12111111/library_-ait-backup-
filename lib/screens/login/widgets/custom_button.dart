@@ -7,20 +7,19 @@ class CustomButton extends StatelessWidget {
   final Color textColor;
   final String text;
   final Widget? image;
-  final VoidCallback onPressed;
+  final VoidCallback onPressFunction;
 
   const CustomButton({
     required this.color,
     required this.textColor,
     required this.text,
-    required this.onPressed,
+    required this.onPressFunction,
     this.image,
   });
-
   @override
   Widget build(BuildContext context) {
     return ConstrainedBox(
-      constraints: const BoxConstraints(
+      constraints: BoxConstraints(
         minWidth: double.infinity,
       ),
       child: image != null
@@ -35,14 +34,15 @@ class CustomButton extends StatelessWidget {
               child: Row(
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.only(right: kPaddingL),
+                    padding:  EdgeInsets.only(right: kPaddingL),
                     child: image,
                   ),
                   Text(
                     text,
                     style: Theme.of(context).textTheme.subtitle1!.copyWith(
-                          color: textColor,
-                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w700,
+                          fontSize:20,
                         ),
                   ),
                 ],
@@ -50,19 +50,18 @@ class CustomButton extends StatelessWidget {
             )
           : TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: color,
-                padding: const EdgeInsets.all(kPaddingM),
+                padding:  EdgeInsets.all(kPaddingM),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(4.0),
                 ),
               ),
-              onPressed: onPressed,
+              onPressed: onPressFunction,
               child: Text(
                 text,
                 style: Theme.of(context)
                     .textTheme
                     .subtitle1!
-                    .copyWith(color: textColor, fontWeight: FontWeight.bold),
+                    .copyWith(color: textColor, fontWeight: FontWeight.w700),
               ),
             ),
     );
