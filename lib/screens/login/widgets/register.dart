@@ -14,7 +14,7 @@ class SignupPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             SizedBox(
-              height: 50,
+              height: 60,
             ),
             Icon(
               Icons.book,
@@ -24,6 +24,7 @@ class SignupPage extends StatelessWidget {
               'Hello AITian\'s!',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
+                fontColor:Colors.black,
                 fontSize: 34,
               ),
             ),
@@ -46,13 +47,13 @@ class SignupPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
                   border: Border.all(color: Colors.white),
-                  borderRadius: BorderRadius.circular(12),
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.only(left: 20.0),
                   child: TextField(
                     decoration: InputDecoration(
-                        border: InputBorder.none, hintText: 'AIT REG NO'),
+                        border: InputBorder.none, hintText: 'AIT REGISTRATION NO'),
                   ),
                 ),
               ),
@@ -81,7 +82,7 @@ class SignupPage extends StatelessWidget {
               height: 20,
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              padding: EdgeInsets.symmetric(horizontal: 25.0),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
@@ -89,7 +90,7 @@ class SignupPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Padding(
-                  padding: const EdgeInsets.only(left: 20.0),
+                  padding: EdgeInsets.only(left: 20.0),
                   child: TextField(
                     decoration: InputDecoration(
                         border: InputBorder.none, hintText: 'PASSWORD'),
@@ -101,7 +102,7 @@ class SignupPage extends StatelessWidget {
               height: 20,
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              padding: EdgeInsets.symmetric(horizontal: 25.0),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
@@ -132,16 +133,16 @@ class SignupPage extends StatelessWidget {
                 child: Container(
                   padding: EdgeInsets.all(20),
                   decoration: BoxDecoration(
-                    color: Colors.purple,
+                    color: Colors.blue,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: Center(
                     child: Text(
-                      'Sign Up',
+                      'Sign Up Now',
                       style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
-                          fontSize: 18),
+                          fontSize: 20),
                     ),
                   ),
                 ),
@@ -162,9 +163,9 @@ class SignupPage extends StatelessWidget {
 //ADD GITHUB LINK HERE
                   },
                   child: Text(
-                    'AIT PUNE',
+                    'AIT PUNE STUDENTS',
                     style: TextStyle(
-                        color: Color.fromARGB(255, 255, 255, 255),
+                        color: Color.fromARGB(255, 200, 255, 255),
                         fontWeight: FontWeight.bold),
                   ),
                 )
