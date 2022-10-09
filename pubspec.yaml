@@ -1,18 +1,13 @@
 name: library_management
 description: A new Flutter project.
-
 publish_to: 'none' 
-
 version: 1.0.0+1
-
 environment:
   sdk: '>=2.18.0 <3.0.0'
-
 dependencies:
   flutter:
     sdk: flutter
   firebase_auth:  
-
   cupertino_icons: ^1.0.2
   flutterbook: ^0.1.7
   md2_tab_indicator: ^1.0.2
@@ -21,19 +16,12 @@ dependencies:
   firebase_messaging: ^13.0.4
   flutter_local_notifications: ^11.0.1
   url_launcher: ^6.1.6
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
   flutter_lints: ^2.0.0
-
-
 flutter:
-
   uses-material-design: true
-
   assets:
     - assets/
     - assets/google_logo.png
@@ -50,4 +38,3 @@ flutter:
     - assets/image1.png
     - assets/image2.png
     - assets/image3.png
-
