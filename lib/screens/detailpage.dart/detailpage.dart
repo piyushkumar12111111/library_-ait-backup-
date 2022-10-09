@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'ReadingPage.dart';
 
-import 'package:library_management/screens/detailpage.dart/listningpage.dart';
+import './screens/detailpage.dart/listningpage.dart';
 
 class DetailPage extends StatefulWidget {
   final String imageAddress;
@@ -23,16 +23,13 @@ class _DetailsPageState extends State<DetailPage> {
     var size = MediaQuery.of(context).size;
 
     return Scaffold(
-      //backgroundColor: Colors.white,
       body: SafeArea(
         child: Container(
           decoration: BoxDecoration(
-              //color: Colors.red,
               gradient: LinearGradient(
-                  colors: [Color.fromRGBO(249, 191, 161, 1), Colors.white],
+                  colors: [Color.fromRGBO(249, 194, 161, 1), Colors.white],
                   begin: Alignment.topCenter,
                   end: Alignment.center
-                  //,stops: [0.7,0.9]
                   )),
           child: Column(
             children: [
@@ -56,7 +53,6 @@ class _DetailsPageState extends State<DetailPage> {
                             child: Container(
                               padding:
                                   EdgeInsets.all(constraints.maxHeight * 0.18),
-                              //color: Colors.black,
                               height: constraints.maxHeight * 0.8,
                               width: constraints.maxWidth * 0.15,
                               child: FittedBox(
@@ -74,7 +70,7 @@ class _DetailsPageState extends State<DetailPage> {
                           padding: EdgeInsets.all(constraints.maxHeight * 0.18),
                           //color: Colors.black,
                           height: constraints.maxHeight * 0.8,
-                          width: constraints.maxWidth * 0.15,
+                          width: constraints.maxWidth * 0.14,
                           child: FittedBox(
                               child: Icon(
                             Icons.share,
@@ -85,7 +81,7 @@ class _DetailsPageState extends State<DetailPage> {
                           padding: EdgeInsets.all(constraints.maxHeight * 0.18),
                           //color: Colors.black,
                           height: constraints.maxHeight * 0.8,
-                          width: constraints.maxWidth * 0.15,
+                          width: constraints.maxWidth * 0.14,
                           child: FittedBox(
                               child: Icon(
                             Icons.bookmark_border,
@@ -101,7 +97,7 @@ class _DetailsPageState extends State<DetailPage> {
                 tag: Text("Haha"),
                 child: Container(
                   height: size.height * 0.4,
-                  width: size.width * 0.55,
+                  width: size.width * 0.54,
                   child: LayoutBuilder(
                     builder: (context, constraints) {
                       return Stack(
@@ -133,7 +129,7 @@ class _DetailsPageState extends State<DetailPage> {
                     },
                   ),
                   decoration: BoxDecoration(
-                      color: Colors.black,
+                      color: Colors.black[700],
                       borderRadius: BorderRadius.circular(size.width * 0.05),
                       image: DecorationImage(
                         fit: BoxFit.fill,
@@ -191,7 +187,7 @@ class _DetailsPageState extends State<DetailPage> {
                       children: [
                         Container(
                           //color: Colors.purple,
-                          width: constraints.maxWidth * 0.27,
+                          width: constraints.maxWidth * 0.265,
                           child: LayoutBuilder(
                             builder: (context, constraints) {
                               return Column(
@@ -223,7 +219,7 @@ class _DetailsPageState extends State<DetailPage> {
                                     child: FittedBox(
                                         fit: BoxFit.scaleDown,
                                         child: Text(
-                                          "Published in",
+                                          "Published in the book",
                                           style: GoogleFonts.lato(
                                               textStyle: TextStyle(
                                                   fontSize: 20,
@@ -477,7 +473,7 @@ class _DetailsPageState extends State<DetailPage> {
                                               style: GoogleFonts.lato(
                                                   textStyle: TextStyle(
                                                       fontWeight:
-                                                          FontWeight.w400,
+                                                          FontWeight.bold,
                                                       color: Colors.white))),
                                         ),
                                       ),
